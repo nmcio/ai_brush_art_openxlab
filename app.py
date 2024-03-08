@@ -1,7 +1,7 @@
 import os
 os.chdir(f"/home/xlab-app-center")
-os.system(f"git clone https://github.com/nmcio/stable-diffusion-webui /home/xlab-app-center/stable-diffusion-webui")
-os.chdir(f"/home/xlab-app-center/stable-diffusion-webui")
+os.system(f"git clone https://github.com/nmcio/automatic /home/xlab-app-center/automatic")
+os.chdir(f"/home/xlab-app-center/automatic")
 os.system(f"git lfs install")
 os.system(f"git reset --hard")
 #os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/71392 -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o chilloutworld_v15.safetensors")
